@@ -18,7 +18,7 @@
 
 
   --fs-7: 0.875rem;
-  --fs-10: 0.688rem;
+  --fs-10: 1rem;
   
 
   --weight-500: 500;
@@ -54,7 +54,8 @@
           box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { text-decoration: none;
+}
 
 li { list-style: none; }
 
@@ -205,14 +206,16 @@ body { background: var(--white); }
 
 .toast-message {
   font-size: var(--fs-10);
-  color: var(--sonic-silver);
+  color: rgb(233, 85, 85);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .toast-title {
   font-size: var(--fs-7);
   font-weight: var(--weight-500);
   color: var(--onyx);
+  text-align: center;
 }
 
 
